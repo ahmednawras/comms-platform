@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
 
-      - run: sudo apt-get install -y ruby ruby-dev
+      - run: sudo apt-get install -y ruby ruby-dev make
       
       - run: sudo gem install jekyll
       
