@@ -3,7 +3,8 @@ version: 2
 jobs:
   build:
     working_directory: ~/comms-platform
-    machine: true
+    docker:
+      - image: circleci/openjdk:8-jdk-node-browsers
 
     steps:
       - checkout
